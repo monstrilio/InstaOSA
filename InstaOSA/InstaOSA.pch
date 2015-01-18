@@ -1,0 +1,20 @@
+//
+//  InstaOSA.pch
+//  InstaOSA
+//
+//  Created by Oscar Sánchez Ayala on 18/01/15.
+//  Copyright (c) 2015 OSA. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import "AFNetworking.h"
+#endif
